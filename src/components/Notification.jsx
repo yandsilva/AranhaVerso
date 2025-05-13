@@ -5,7 +5,7 @@ import { COLORS, SPACING } from "../theme/theme";
 
 const Notification = () => {
   return (
-    <View style={styles.ImageContainer}>
+    <View>
       <CustomIcon name="bell" size={24} color="white" style={styles.Image} />
     </View>
   );
